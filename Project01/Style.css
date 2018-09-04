@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #007991, #78ffd6);
+}
+
+.bg{
+    height : 100%;
+    width : 100%;
+}
+
+.form > * {
+    border: 0;
+    padding: 10 px;
+    background: #fff;
+    line-height: 60px;
+    font-size: 30px;
+}
+
+.form input[type="submit"]{
+    background: #2980b9;
+    border: 2px solid #2980b9;
+    color: #fff;
+}
+
+.bg{
+    display: flex;
+    justify-content: "center";
+    align-items: "center";
+}
